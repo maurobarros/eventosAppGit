@@ -22,7 +22,7 @@ public class Convidado {
 	@NotEmpty
 	private String nomeConvidado;
 	
-	@ManyToOne (fetch = FetchType.LAZY, targetEntity = Evento.class) //Estabelecer relação (lê se da seguinte maneira: "muitos convidados para um evento")
+	@ManyToOne  //Estabelecer relação (lê se da seguinte maneira: "muitos convidados para um evento")
 
 	private Evento evento;
 	
