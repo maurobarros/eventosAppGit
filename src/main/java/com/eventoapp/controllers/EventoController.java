@@ -29,7 +29,7 @@ public class EventoController {
 	@RequestMapping(value = "/cadastrarEvento", method = RequestMethod.GET)
 	public String form() {
 
-		return "formEvento";
+		return "evento/formEvento";
 	}
 
 	// Para quando clicarmos em "salvar" do nosso formaulario é este metodo que é
